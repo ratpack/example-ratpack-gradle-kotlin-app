@@ -10,11 +10,7 @@ import ratpack.guice.BindingsSpec
 
 class HandlerFactory : ratpack.launch.HandlerFactory {
   override fun create(launchConfig : LaunchConfig?) : Handler? {
-    if (launchConfig is LaunchConfig) {
-      return handler(launchConfig, registerModules, routes)
-    } else {
-      throw IllegalArgumentException("launchConfig cannot be null")
-    }
+    return handler(launchConfig!!, registerModules, routes)
   }
 
   /**
@@ -23,11 +19,11 @@ class HandlerFactory : ratpack.launch.HandlerFactory {
    * This is only invoked once during application bootstrap. If you change the
    * module configuration of an application, you must restart it.
    */
-  private val registerModules = Action { (registry: BindingsSpec?) ->
+  private val registerModules = Action {(registry : BindingsSpec?) ->
     registry!!.add(MyModule())
   }
 
-  private val routes = Action { (chain : Chain?) ->
+  private val routes = Action {(chain : Chain?) ->
     Routes().execute(chain!!)
   }
 
