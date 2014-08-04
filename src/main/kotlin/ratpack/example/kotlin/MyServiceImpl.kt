@@ -3,12 +3,10 @@ package ratpack.example.kotlin
 /**
  * The service implementation.
  *
- * @see ratpack.example.java.MyHandler
+ * @see MyHandler
  */
 class MyServiceImpl : MyService {
-
-    override fun getValue() : String {
-        return "service-value"
-    }
-
+  override fun getValue() : String {
+    return "service-value"
+  }
 }
