@@ -2,7 +2,7 @@ package ratpack.example.kotlin
 
 import ratpack.launch.LaunchConfig
 import ratpack.handling.Handler
-import ratpack.guice.Guice
+import ratpack.guice.Guice.handler
 import ratpack.guice.ModuleRegistry
 import ratpack.handling.ChainAction
 import ratpack.handling.Chain
@@ -11,7 +11,7 @@ import ratpack.func.Action
 class HandlerFactory : ratpack.launch.HandlerFactory {
   override fun create(launchConfig : LaunchConfig?) : Handler? {
     if (launchConfig is LaunchConfig) {
-      return Guice.handler(launchConfig, registerModules, OptRoutes(Routes()))
+      return handler(launchConfig, registerModules, OptRoutes(Routes()))
     } else {
       throw IllegalArgumentException("launchConfig cannot be null")
     }

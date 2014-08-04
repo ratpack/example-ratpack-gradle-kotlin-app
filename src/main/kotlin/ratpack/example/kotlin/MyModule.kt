@@ -4,8 +4,7 @@ import com.google.inject.AbstractModule
 import com.google.inject.Injector
 import ratpack.guice.HandlerDecoratingModule
 import ratpack.handling.Handler
-import java.util.Arrays
-import ratpack.handling.Handlers
+import ratpack.handling.Handlers.chain
 
 /**
  * An example Guice module.
@@ -29,6 +28,6 @@ class MyModule : AbstractModule(), HandlerDecoratingModule {
    * @see HandlerDecoratingModule
    */
   override fun decorate(injector : Injector?, handler : Handler?) : Handler? {
-    return Handlers.chain(Arrays.asList(LoggingHandler(), handler))
+    return chain(array(LoggingHandler(), handler).toList())
   }
 }
