@@ -3,7 +3,7 @@ package ratpack.example.kotlin
 import ratpack.launch.LaunchConfig
 import ratpack.handling.Handler
 import ratpack.guice.Guice
-import ratpack.example.java.MyModule
+import ratpack.example.kotlin.MyModule
 import ratpack.guice.ModuleRegistry
 import ratpack.handling.ChainAction
 import ratpack.example.java.MyHandler

@@ -6,7 +6,7 @@ import ratpack.handling.Handler
 /**
  * An example of a handler implicitly set up by a module
  *
- * @see ratpack.example.java.MyModule
+ * @see ratpack.example.kotlin.MyModule
  */
 class LoggingHandler : Handler {
     override fun handle(context: Context) {

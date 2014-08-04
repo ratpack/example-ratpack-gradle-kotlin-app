@@ -9,7 +9,7 @@ import javax.inject.Singleton;
 /**
  * A handler implementation that is created via dependency injection.
  *
- * @see MyModule
+ * @see ratpack.example.kotlin.MyModule
  * @see HandlerBootstrap
  */
 @Singleton
