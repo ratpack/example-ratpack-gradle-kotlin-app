@@ -24,7 +24,7 @@ dependencies {
 }
 
 compileKotlin {
-  kotlinOptions.annotations = file("annotations/Gradle_ io.ratpack_ratpack-core_0.9.7")
+  kotlinOptions.annotations = file("annotations/ratpack")
 }
 
 apply plugin: "idea"

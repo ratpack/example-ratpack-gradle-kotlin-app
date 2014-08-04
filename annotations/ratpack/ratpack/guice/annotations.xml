@@ -1,0 +1,68 @@
+<root>
+    <item name='ratpack.guice.Guice ratpack.handling.Handler handler(ratpack.launch.LaunchConfig, ratpack.func.Action&lt;? super ratpack.guice.BindingsSpec&gt;, ratpack.func.Function&lt;? super com.google.inject.Injector,? extends ratpack.handling.Handler&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.Guice ratpack.func.Function&lt;com.google.inject.Module,com.google.inject.Injector&gt; childInjectorFactory(com.google.inject.Injector)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.Guice ratpack.handling.Handler handler(ratpack.launch.LaunchConfig, ratpack.func.Action&lt;? super ratpack.guice.BindingsSpec&gt;, ratpack.func.Action&lt;? super ratpack.handling.Chain&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.Guice ratpack.func.Function&lt;com.google.inject.Module,com.google.inject.Injector&gt; newInjectorFactory(ratpack.launch.LaunchConfig) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.NoSuchModuleException NoSuchModuleException(java.lang.Class&lt;? extends com.google.inject.Module&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.BindingsSpec void add(java.lang.Iterable&lt;? extends com.google.inject.Module&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.guice.Guice ratpack.handling.Handler handler(ratpack.launch.LaunchConfig, ratpack.func.Action&lt;? super ratpack.guice.BindingsSpec&gt;, ratpack.func.Function&lt;? super com.google.inject.Injector,? extends ratpack.handling.Handler&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.Guice ratpack.registry.Registry registry(com.google.inject.Injector)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.Guice ratpack.func.Function&lt;com.google.inject.Module,com.google.inject.Injector&gt; newInjectorFactory(ratpack.launch.LaunchConfig)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.Guice ratpack.handling.Handler handler(ratpack.launch.LaunchConfig, com.google.inject.Injector, ratpack.func.Action&lt;? super ratpack.guice.BindingsSpec&gt;, ratpack.func.Action&lt;? super ratpack.handling.Chain&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.GuiceBackedHandlerFactory ratpack.handling.Handler create(ratpack.func.Action&lt;? super ratpack.guice.BindingsSpec&gt;, ratpack.func.Function&lt;? super com.google.inject.Module,? extends com.google.inject.Injector&gt;, ratpack.func.Function&lt;? super com.google.inject.Injector,? extends ratpack.handling.Handler&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.guice.Guice ratpack.registry.Registry justInTimeRegistry(com.google.inject.Injector)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.BindingsSpecAction void add(java.lang.Iterable&lt;? extends com.google.inject.Module&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.guice.BindingsSpec void bind(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.guice.Guice ratpack.handling.Handler handler(ratpack.launch.LaunchConfig, com.google.inject.Injector, ratpack.func.Action&lt;? super ratpack.guice.BindingsSpec&gt;, ratpack.func.Function&lt;? super com.google.inject.Injector,? extends ratpack.handling.Handler&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.BindingsSpecAction void bind(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.guice.Guice ratpack.handling.Handler handler(ratpack.launch.LaunchConfig, ratpack.func.Action&lt;? super ratpack.guice.BindingsSpec&gt;, ratpack.func.Action&lt;? super ratpack.handling.Chain&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

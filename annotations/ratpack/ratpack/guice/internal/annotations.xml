@@ -1,0 +1,44 @@
+<root>
+    <item name='ratpack.guice.internal.DefaultGuiceBackedHandlerFactory ratpack.handling.Handler create(ratpack.func.Action&lt;? super ratpack.guice.BindingsSpec&gt;, ratpack.func.Function&lt;? super com.google.inject.Module,? extends com.google.inject.Injector&gt;, ratpack.func.Function&lt;? super com.google.inject.Injector,? extends ratpack.handling.Handler&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.internal.InjectorBindingHandler void handle(ratpack.handling.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.internal.GuiceUtil com.google.common.collect.ImmutableList&lt;T&gt; allOfType(com.google.inject.Injector, com.google.common.reflect.TypeToken&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.internal.GuiceUtil com.google.common.reflect.TypeToken&lt;T&gt; toTypeToken(com.google.inject.TypeLiteral&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.internal.InjectorBackedRegistry O get(java.lang.Class&lt;O&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.internal.GuiceUtil void eachOfType(com.google.inject.Injector, com.google.common.reflect.TypeToken&lt;T&gt;, ratpack.func.Action&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.internal.InjectorBackedRegistry T maybeGet(com.google.common.reflect.TypeToken&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.guice.internal.GuiceUtil void search(com.google.inject.Injector, com.google.common.reflect.TypeToken&lt;T&gt;, ratpack.func.Function&lt;com.google.inject.Provider&lt;? extends T&gt;,java.lang.Boolean&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.internal.JustInTimeInjectorRegistry T maybeGet(com.google.common.reflect.TypeToken&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.internal.GuiceUtil void eachProviderOfType(com.google.inject.Injector, com.google.common.reflect.TypeToken&lt;T&gt;, ratpack.func.Action&lt;? super com.google.inject.Provider&lt;? extends T&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.internal.GuiceUtil com.google.common.collect.ImmutableList&lt;com.google.inject.Provider&lt;? extends T&gt;&gt; allProvidersOfType(com.google.inject.Injector, com.google.common.reflect.TypeToken&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.internal.DefaultGuiceBackedHandlerFactory void registerDefaultModules(ratpack.guice.BindingsSpec) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.guice.internal.InjectorBackedRegistry O get(com.google.common.reflect.TypeToken&lt;O&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>
