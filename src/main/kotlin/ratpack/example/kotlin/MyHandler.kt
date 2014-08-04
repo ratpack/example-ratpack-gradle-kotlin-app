@@ -11,8 +11,7 @@ import javax.inject.Inject
  * @see MyModule
  * @see HandlerBootstrap
  */
-[Singleton]
-class MyHandler [Inject] (private val myService : MyService) : Handler {
+Singleton class MyHandler [Inject] (private val myService : MyService) : Handler {
   override fun handle(context : Context) {
     context.getResponse()!!.send("service value: ${myService.getValue()}")
   }
