@@ -1,0 +1,5 @@
+<root>
+    <item name='ratpack.http.client.internal.RequestSpecBacking ratpack.http.client.RequestSpec asSpec()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

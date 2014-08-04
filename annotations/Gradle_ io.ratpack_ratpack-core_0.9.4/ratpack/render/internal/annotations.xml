@@ -1,0 +1,23 @@
+<root>
+    <item name='ratpack.render.internal.DefaultRenderController void render(java.lang.Object, ratpack.handling.Context) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.render.internal.RenderController void render(java.lang.Object, ratpack.handling.Context) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.render.internal.DefaultCharSequenceRenderer void render(ratpack.handling.Context, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.render.internal.DefaultCharSequenceRenderer void render(ratpack.handling.Context, java.lang.CharSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.render.internal.DefaultCharSequenceRenderer void render(ratpack.handling.Context, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.render.internal.DefaultCharSequenceRenderer void render(ratpack.handling.Context, java.lang.CharSequence) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,23 @@
+<root>
+    <item name='ratpack.path.internal.PathHandler void handle(ratpack.handling.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinding ratpack.path.PathTokens getTokens()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinding java.lang.String getBoundTo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinding ratpack.path.PathTokens getAllTokens()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinding java.lang.String childPath(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinding DefaultPathBinding(java.lang.String, java.lang.String, com.google.common.collect.ImmutableMap&lt;java.lang.String,java.lang.String&gt;, ratpack.path.PathBinding) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinding DefaultPathBinding(java.lang.String, java.lang.String, com.google.common.collect.ImmutableMap&lt;java.lang.String,java.lang.String&gt;, ratpack.path.PathBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

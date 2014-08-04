@@ -1,0 +1,8 @@
+<root>
+    <item name='ratpack.util.ExceptionUtils java.lang.RuntimeException uncheck(java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.util.ExceptionUtils java.lang.Exception toException(java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

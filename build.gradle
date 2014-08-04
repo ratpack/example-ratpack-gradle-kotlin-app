@@ -1,0 +1,30 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "io.ratpack:ratpack-gradle:0.9.4"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:0.8.11"
+    }
+}
+
+apply plugin: "ratpack"
+apply plugin: "kotlin"
+
+repositories {
+    maven { url "http://oss.jfrog.org/artifactory/repo" }
+    jcenter()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib:0.8.11"
+    compile "io.ratpack:ratpack-guice:0.9.4"
+    testCompile "junit:junit:4.11"
+    springloaded "org.springframework:springloaded:1.2.0.RELEASE"
+}
+
+compileKotlin {
+    kotlinOptions.annotations = file("annotations/Gradle_ io.ratpack_ratpack-core_0.9.4")
+}
+
+apply plugin: "idea"

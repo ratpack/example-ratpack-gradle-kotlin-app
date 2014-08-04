@@ -1,0 +1,20 @@
+<root>
+    <item name='ratpack.exec.internal.DefaultExecContext ratpack.exec.ExecContext.Supplier getSupplier()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.exec.internal.AbstractExecContext ratpack.exec.ExecContext getContext()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.exec.internal.DefaultExecController ratpack.exec.ExecControl getControl()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.exec.internal.DefaultExecController io.netty.channel.EventLoopGroup getEventLoopGroup()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.exec.internal.DefaultSuccessOrErrorPromise ratpack.exec.SuccessPromise&lt;T&gt; onError(ratpack.func.Action&lt;? super java.lang.Throwable&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.exec.internal.AbstractExecContext ratpack.http.client.HttpClient getHttpClient()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

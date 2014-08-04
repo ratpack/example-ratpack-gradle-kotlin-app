@@ -1,0 +1,23 @@
+<root>
+    <item name='ratpack.ssl.SSLContexts javax.net.ssl.SSLContext sslContext(java.io.File, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.ssl.SSLContexts javax.net.ssl.SSLContext sslContext(java.io.InputStream, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.ssl.SSLContexts javax.net.ssl.SSLContext sslContext(java.net.URL, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.ssl.SSLContexts javax.net.ssl.SSLContext sslContext(java.io.File, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.ssl.SSLContexts javax.net.ssl.SSLContext sslContext(java.net.URL, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.ssl.SSLContexts javax.net.ssl.SSLContext sslContext(java.io.InputStream, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.ssl.SSLContexts javax.net.ssl.SSLContext sslContext(java.net.URL, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>
