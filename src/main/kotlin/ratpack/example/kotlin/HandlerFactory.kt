@@ -9,9 +9,7 @@ import ratpack.func.Action
 import ratpack.guice.BindingsSpec
 
 class HandlerFactory : ratpack.launch.HandlerFactory {
-  override fun create(launchConfig : LaunchConfig?) : Handler? {
-    return handler(launchConfig!!, registerModules, routes)
-  }
+  override fun create(launchConfig : LaunchConfig?) = handler(launchConfig!!, registerModules, routes)
 
   /**
    * Registers all of the Guice modules that make up the application.
@@ -49,8 +47,8 @@ class HandlerFactory : ratpack.launch.HandlerFactory {
         // Map to /nested/*/*
         nested!!.handler(":var1/:var2?") { context ->
           // The path tokens are the :var1 and :var2 path components above
-          val pathTokens = context.getPathTokens()
-          context.render("from the nested handler, var1: ${pathTokens!!["var1"]}, var2: ${pathTokens["var2"]}")
+          val pathTokens = context.getPathTokens()!!
+          context.render("from the nested handler, var1: ${pathTokens["var1"]}, var2: ${pathTokens["var2"]}")
         }
       }
 

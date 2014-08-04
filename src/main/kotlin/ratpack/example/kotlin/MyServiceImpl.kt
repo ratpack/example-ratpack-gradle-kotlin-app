@@ -6,7 +6,5 @@ package ratpack.example.kotlin
  * @see MyHandler
  */
 class MyServiceImpl : MyService {
-  override fun getValue() : String {
-    return "service-value"
-  }
+  override fun getValue() = "service-value"
 }
