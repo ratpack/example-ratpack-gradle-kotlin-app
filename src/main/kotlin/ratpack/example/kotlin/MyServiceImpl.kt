@@ -1,7 +1,5 @@
 package ratpack.example.kotlin
 
-import ratpack.example.java.MyService
-
 /**
  * The service implementation.
  *

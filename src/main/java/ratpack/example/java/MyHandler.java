@@ -1,5 +1,6 @@
 package ratpack.example.java;
 
+import ratpack.example.kotlin.MyService;
 import ratpack.handling.Context;
 import ratpack.handling.Handler;
 

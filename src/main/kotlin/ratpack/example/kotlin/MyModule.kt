@@ -2,7 +2,6 @@ package ratpack.example.kotlin
 
 import com.google.inject.AbstractModule
 import com.google.inject.Injector
-import ratpack.example.java.MyService
 import ratpack.guice.HandlerDecoratingModule
 import ratpack.handling.Handler
 import java.util.Arrays
