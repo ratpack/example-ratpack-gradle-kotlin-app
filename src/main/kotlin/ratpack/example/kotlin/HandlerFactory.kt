@@ -23,10 +23,8 @@ class HandlerFactory : ratpack.launch.HandlerFactory {
    * This is only invoked once during application bootstrap. If you change the
    * module configuration of an application, you must restart it.
    */
-  private object registerModules : Action<BindingsSpec?> {
-    override fun execute(registry : BindingsSpec?) {
-      registry!!.add(MyModule())
-    }
+  private val registerModules = Action { (registry: BindingsSpec?) ->
+    registry!!.add(MyModule())
   }
 
   private class OptRoutes(val delegate : Routes) : Action<Chain?> {
