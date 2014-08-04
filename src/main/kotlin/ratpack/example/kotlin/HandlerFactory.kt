@@ -11,7 +11,7 @@ import ratpack.guice.BindingsSpec
 class HandlerFactory : ratpack.launch.HandlerFactory {
   override fun create(launchConfig : LaunchConfig?) : Handler? {
     if (launchConfig is LaunchConfig) {
-      return handler(launchConfig, registerModules, OptRoutes(Routes()))
+      return handler(launchConfig, registerModules, routes)
     } else {
       throw IllegalArgumentException("launchConfig cannot be null")
     }
@@ -27,10 +27,8 @@ class HandlerFactory : ratpack.launch.HandlerFactory {
     registry!!.add(MyModule())
   }
 
-  private class OptRoutes(val delegate : Routes) : Action<Chain?> {
-    override fun execute(chain : Chain?) {
-      delegate.execute(chain!!)
-    }
+  private val routes = Action { (chain : Chain?) ->
+    Routes().execute(chain!!)
   }
 
   private class Routes : ChainAction() {
