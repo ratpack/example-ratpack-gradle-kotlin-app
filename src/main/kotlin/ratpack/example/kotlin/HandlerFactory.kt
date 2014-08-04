@@ -3,10 +3,10 @@ package ratpack.example.kotlin
 import ratpack.launch.LaunchConfig
 import ratpack.handling.Handler
 import ratpack.guice.Guice.handler
-import ratpack.guice.ModuleRegistry
 import ratpack.handling.ChainAction
 import ratpack.handling.Chain
 import ratpack.func.Action
+import ratpack.guice.BindingsSpec
 
 class HandlerFactory : ratpack.launch.HandlerFactory {
   override fun create(launchConfig : LaunchConfig?) : Handler? {
@@ -23,9 +23,9 @@ class HandlerFactory : ratpack.launch.HandlerFactory {
    * This is only invoked once during application bootstrap. If you change the
    * module configuration of an application, you must restart it.
    */
-  private object registerModules : Action<ModuleRegistry?> {
-    override fun execute(moduleRegistry : ModuleRegistry?) {
-      moduleRegistry!!.register(MyModule())
+  private object registerModules : Action<BindingsSpec?> {
+    override fun execute(registry : BindingsSpec?) {
+      registry!!.add(MyModule())
     }
   }
 

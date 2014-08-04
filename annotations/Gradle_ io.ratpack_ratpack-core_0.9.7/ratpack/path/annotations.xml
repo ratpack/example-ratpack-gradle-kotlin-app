@@ -1,0 +1,71 @@
+<root>
+    <item name='ratpack.path.PathBinderBuilder ratpack.path.PathBinder build(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.path.PathBinding ratpack.path.PathTokens getTokens()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.path.PathBinderBuilder ratpack.path.PathBinderBuilder optionalTokenWithPattern(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.path.PathBinding java.lang.String getBoundTo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.path.PathBinderBuilder ratpack.path.PathBinderBuilder optionalToken(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.path.PathBinderBuilder ratpack.path.PathBinderBuilder tokenWithPattern(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.path.PathBinderBuilder ratpack.path.PathBinderBuilder token(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.path.PathBinderBuilder ratpack.path.PathBinderBuilder literal(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.path.PathBinders ratpack.path.PathBinderBuilder builder()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.PathBinding ratpack.path.PathTokens getAllTokens()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.path.PathBinding java.lang.String childPath(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.path.PathBinderBuilder ratpack.path.PathBinderBuilder literalPattern(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+</root>

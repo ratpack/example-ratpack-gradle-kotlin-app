@@ -1,0 +1,197 @@
+<root>
+    <item name='ratpack.http.Request ratpack.http.HttpMethod getMethod()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.Response void send(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.HttpMethod boolean name(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.MediaType APPLICATION_FORM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.HttpUrlSpec ratpack.http.HttpUrlSpec params(java.util.Map&lt;java.lang.String,java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.Response void send(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.HttpUrlSpec java.net.URI getURL()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.MediaType TEXT_HTML'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.HttpUrlSpec ratpack.http.HttpUrlSpec params(java.util.Map&lt;java.lang.String,java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.MutableHeaders void remove(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.Response ratpack.http.MutableHeaders getHeaders()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.Response ratpack.http.Response contentType(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.StreamTransmitter void transmit(ratpack.exec.ExecControl, org.reactivestreams.Publisher&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.Response void sendFile(ratpack.exec.ExecControl, java.nio.file.Path) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.Response void send(java.io.InputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.HttpUrlSpec ratpack.http.HttpUrlSpec path(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.HttpUrlSpec ratpack.http.HttpUrlSpec set(java.net.URI)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.HttpUrlSpec ratpack.http.HttpUrlSpec host(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.TypedData java.io.InputStream getInputStream()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.HttpResponseChunks ratpack.http.HttpResponseChunks httpResponseChunks(org.reactivestreams.Publisher&lt;ratpack.http.HttpResponseChunk&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.Response ratpack.http.Response status(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.HttpUrlSpec ratpack.http.HttpUrlSpec params(com.google.common.collect.Multimap&lt;java.lang.String,java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.Response void send(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.HttpUrlSpec ratpack.http.HttpUrlSpec secure()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.HttpUrlSpec ratpack.http.HttpUrlSpec set(java.net.URI) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.HttpUrlSpec ratpack.http.HttpUrlSpec port(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.Response ratpack.http.Response status(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.HttpUrlSpec ratpack.http.HttpUrlSpec pathSegment(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.MediaType APPLICATION_JSON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.Response io.netty.handler.codec.http.Cookie cookie(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.HttpUrlSpec ratpack.http.HttpUrlSpec params(java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.HttpUrlSpec ratpack.http.HttpUrlSpec path(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.Response io.netty.handler.codec.http.Cookie expireCookie(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.ServerSentEvents ratpack.http.ServerSentEvents serverSentEvents(org.reactivestreams.Publisher&lt;ratpack.http.ServerSentEvent&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.HttpUrlSpec ratpack.http.HttpUrlSpec params(java.lang.String...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+</root>

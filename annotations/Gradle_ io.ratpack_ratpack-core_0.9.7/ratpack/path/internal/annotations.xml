@@ -1,0 +1,44 @@
+<root>
+    <item name='ratpack.path.internal.PathHandler void handle(ratpack.handling.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinderBuilder ratpack.path.PathBinder build(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinderBuilder ratpack.path.PathBinderBuilder literal(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinderBuilder ratpack.path.PathBinderBuilder optionalTokenWithPattern(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinderBuilder ratpack.path.PathBinderBuilder token(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinderBuilder ratpack.path.PathBinderBuilder optionalToken(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinding ratpack.path.PathTokens getTokens()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinding java.lang.String getBoundTo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinding ratpack.path.PathTokens getAllTokens()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinding java.lang.String childPath(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinderBuilder ratpack.path.PathBinderBuilder tokenWithPattern(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinderBuilder ratpack.path.PathBinderBuilder literalPattern(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinding DefaultPathBinding(java.lang.String, java.lang.String, com.google.common.collect.ImmutableMap&lt;java.lang.String,java.lang.String&gt;, ratpack.path.PathBinding) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.path.internal.DefaultPathBinding DefaultPathBinding(java.lang.String, java.lang.String, com.google.common.collect.ImmutableMap&lt;java.lang.String,java.lang.String&gt;, ratpack.path.PathBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

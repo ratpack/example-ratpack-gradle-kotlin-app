@@ -1,0 +1,299 @@
+<root>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain host(java.lang.String, ratpack.func.Action&lt;? super ratpack.handling.Chain&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext ratpack.launch.LaunchConfig getLaunchConfig()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext boolean each(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;, ratpack.func.Action&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext void stream(org.reactivestreams.Publisher&lt;T&gt;, org.reactivestreams.Subscriber&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain delete(ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain get(ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain handler(java.lang.String, ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.ChainHandler ChainHandler(java.util.List&lt;? extends ratpack.handling.Handler&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultByContentSpec ratpack.handling.ByContentSpec json(ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain put(java.lang.String, ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.Extractions java.lang.Object[] extract(java.util.List&lt;com.google.common.reflect.TypeToken&lt;?&gt;&gt;, ratpack.registry.Registry)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain get(java.lang.String, ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext T first(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.handling.internal.DefaultByContentSpec ratpack.handling.ByContentSpec type(java.lang.String, ratpack.handling.Handler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext void lastModified(java.util.Date, java.lang.Runnable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext.ApplicationConstants ApplicationConstants(ratpack.launch.LaunchConfig, ratpack.render.internal.RenderController) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.RegistryNextHandler void handle(ratpack.handling.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultByMethodSpec ratpack.handling.ByMethodSpec post(ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain register(ratpack.func.Action&lt;? super ratpack.registry.RegistrySpec&gt;, ratpack.func.Action&lt;? super ratpack.handling.Chain&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext O maybeGet(com.google.common.reflect.TypeToken&lt;O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext O get(com.google.common.reflect.TypeToken&lt;O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain register(ratpack.registry.Registry, ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.NextHandler INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext java.lang.Iterable&lt;? extends T&gt; all(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain host(java.lang.String, ratpack.func.Action&lt;? super ratpack.handling.Chain&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext ratpack.handling.Context getContext()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain register(ratpack.func.Action&lt;? super ratpack.registry.RegistrySpec&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain fileSystem(java.lang.String, ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain insert(ratpack.func.Action&lt;? super ratpack.handling.Chain&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultRedirector void redirect(ratpack.handling.Context, java.lang.String, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext T first(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain register(ratpack.func.Action&lt;? super ratpack.registry.RegistrySpec&gt;, ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain register(ratpack.registry.Registry)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext java.lang.Iterable&lt;? extends O&gt; getAll(com.google.common.reflect.TypeToken&lt;O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain assets(java.lang.String, java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain register(ratpack.registry.Registry, ratpack.func.Action&lt;? super ratpack.handling.Chain&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain delete(java.lang.String, ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.ChainActionTransformer ratpack.handling.Chain apply(java.util.List&lt;ratpack.handling.Handler&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain prefix(java.lang.String, ratpack.func.Action&lt;? super ratpack.handling.Chain&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.FactoryHandler void handle(ratpack.handling.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain register(ratpack.func.Action&lt;? super ratpack.registry.RegistrySpec&gt;, ratpack.func.Action&lt;? super ratpack.handling.Chain&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain register(ratpack.func.Action&lt;? super ratpack.registry.RegistrySpec&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultByMethodSpec ratpack.handling.ByMethodSpec get(ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext java.nio.file.Path file(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.handling.internal.ChainBuilders ratpack.handling.Handler build(boolean, ratpack.func.Function&lt;java.util.List&lt;ratpack.handling.Handler&gt;,? extends T&gt;, ratpack.func.Action&lt;? super T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext void byContent(ratpack.func.Action&lt;? super ratpack.handling.ByContentSpec&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain prefix(java.lang.String, ratpack.func.Action&lt;? super ratpack.handling.Chain&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Handler chain(ratpack.func.Action&lt;? super ratpack.handling.Chain&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext java.lang.Iterable&lt;? extends T&gt; all(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain post(java.lang.String, ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain register(ratpack.func.Action&lt;? super ratpack.registry.RegistrySpec&gt;, ratpack.handling.Handler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext void doNext(ratpack.handling.Context, ratpack.registry.Registry, int, ratpack.handling.Handler[], ratpack.handling.Handler) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain patch(ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultByMethodSpec ratpack.handling.ByMethodSpec named(java.lang.String, ratpack.handling.Handler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain header(java.lang.String, java.lang.String, ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.Extractions java.lang.Object[] extract(java.util.List&lt;com.google.common.reflect.TypeToken&lt;?&gt;&gt;, ratpack.registry.Registry) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain register(ratpack.registry.Registry, ratpack.func.Action&lt;? super ratpack.handling.Chain&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultByContentSpec ratpack.handling.ByContentSpec plainText(ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext void insert(ratpack.registry.Registry, ratpack.handling.Handler...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultByMethodSpec ratpack.handling.ByMethodSpec put(ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultByContentSpec ratpack.handling.ByContentSpec xml(ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain patch(java.lang.String, ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultByMethodSpec ratpack.handling.ByMethodSpec delete(ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultByMethodSpec ratpack.handling.ByMethodSpec named(java.lang.String, ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain handler(ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain prefix(java.lang.String, ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain fileSystem(java.lang.String, ratpack.func.Action&lt;? super ratpack.handling.Chain&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain assets(java.lang.String, java.lang.String...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.NextHandler void handle(ratpack.handling.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain put(ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.RegistryInsertHandler void handle(ratpack.handling.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.ChainActionTransformer java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.ClientErrorForwardingHandler void handle(ratpack.handling.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext void byMethod(ratpack.func.Action&lt;? super ratpack.handling.ByMethodSpec&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain redirect(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain post(ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext void insert(ratpack.handling.Handler...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain register(ratpack.func.Action&lt;? super ratpack.registry.RegistrySpec&gt;, ratpack.func.Action&lt;? super ratpack.handling.Chain&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultByContentSpec ratpack.handling.ByContentSpec html(ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultByMethodSpec ratpack.handling.ByMethodSpec patch(ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.ClientErrorForwardingHandler NOT_FOUND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.Extractions void extract(java.util.List&lt;com.google.common.reflect.TypeToken&lt;?&gt;&gt;, ratpack.registry.Registry, java.lang.Object[], int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain fileSystem(java.lang.String, ratpack.func.Action&lt;? super ratpack.handling.Chain&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultChain ratpack.handling.Chain insert(ratpack.func.Action&lt;? super ratpack.handling.Chain&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.ChainHandler void handle(ratpack.handling.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultByContentSpec ratpack.handling.ByContentSpec type(java.lang.String, ratpack.handling.Handler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.handling.internal.DefaultContext boolean each(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;, ratpack.func.Action&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+</root>

@@ -1,0 +1,11 @@
+<root>
+    <item name='ratpack.server.RatpackServerBuilder ratpack.server.RatpackServer build(ratpack.launch.LaunchConfig)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.server.RatpackServer java.lang.String getScheme()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+</root>

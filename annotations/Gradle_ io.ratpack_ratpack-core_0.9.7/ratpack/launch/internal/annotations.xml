@@ -1,0 +1,59 @@
+<root>
+    <item name='ratpack.launch.internal.DefaultLaunchConfig java.util.Map&lt;java.lang.String,java.lang.String&gt; getOtherPrefixedWith(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.internal.LaunchConfigsInternal ratpack.launch.internal.LaunchConfigData createWithBaseDir(java.lang.ClassLoader, java.nio.file.Path, java.util.Properties)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.internal.LaunchConfigsInternal ratpack.launch.internal.LaunchConfigData createFromGlobalProperties(java.lang.String, java.lang.ClassLoader, java.lang.String, java.util.Properties, java.util.Properties) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.internal.DefaultLaunchConfig java.util.Map&lt;java.lang.String,java.lang.String&gt; getOtherPrefixedWith(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.internal.LaunchConfigsInternal ratpack.launch.internal.LaunchConfigData createFromProperties(java.lang.String, java.lang.ClassLoader, java.util.Properties, java.util.Properties) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.internal.LaunchConfigsInternal ratpack.launch.internal.LaunchConfigData createFromProperties(java.lang.String, java.lang.ClassLoader, java.util.Properties, java.util.Properties) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.internal.LaunchConfigsInternal ratpack.launch.internal.LaunchConfigData createFromGlobalProperties(java.lang.String, java.lang.ClassLoader, java.util.Properties, java.util.Properties) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.internal.LaunchConfigsInternal ratpack.launch.LaunchConfig createLaunchConfig(ratpack.launch.internal.LaunchConfigData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.internal.DefaultLaunchConfig ratpack.exec.ExecController getExecController()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.internal.LaunchConfigsInternal ratpack.launch.internal.LaunchConfigData createFromGlobalProperties(java.lang.String, java.lang.ClassLoader, java.lang.String, java.util.Properties, java.util.Properties) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.internal.LaunchConfigsInternal ratpack.launch.internal.LaunchConfigData createWithBaseDir(java.lang.ClassLoader, java.nio.file.Path, java.util.Properties, java.util.Map&lt;java.lang.String,java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.internal.DelegatingLaunchConfig java.util.Map&lt;java.lang.String,java.lang.String&gt; getOtherPrefixedWith(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.launch.internal.LaunchConfigsInternal ratpack.launch.internal.LaunchConfigData createFromGlobalProperties(java.lang.String, java.lang.ClassLoader, java.util.Properties, java.util.Properties) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.internal.LaunchConfigsInternal ratpack.launch.LaunchConfig createLaunchConfig(ratpack.launch.internal.LaunchConfigData) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.internal.LaunchConfigsInternal ratpack.launch.internal.LaunchConfigData createFromGlobalProperties(java.lang.String, java.lang.ClassLoader, java.util.Properties, java.util.Properties)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.internal.LaunchConfigsInternal ratpack.launch.internal.LaunchConfigData createFromFile(java.lang.ClassLoader, java.nio.file.Path, java.nio.file.Path, java.util.Properties, java.util.Properties)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.internal.LaunchConfigsInternal ratpack.launch.internal.LaunchConfigData createFromGlobalProperties(java.lang.String, java.lang.ClassLoader, java.lang.String, java.util.Properties, java.util.Properties)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.internal.LaunchConfigsInternal ratpack.launch.internal.LaunchConfigData createFromProperties(java.lang.String, java.lang.ClassLoader, java.util.Properties, java.util.Properties)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

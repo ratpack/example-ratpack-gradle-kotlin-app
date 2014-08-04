@@ -1,0 +1,206 @@
+<root>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfig build()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder indexFiles(java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs ratpack.launch.LaunchConfig createFromGlobalProperties(java.lang.ClassLoader, java.util.Properties, java.util.Properties)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder bufferAllocator(io.netty.buffer.ByteBufAllocator)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder other(java.util.Map&lt;java.lang.String,java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfig build(ratpack.launch.HandlerFactory)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs ratpack.launch.LaunchConfig createFromGlobalProperties(java.lang.ClassLoader, java.lang.String, java.util.Properties, java.util.Properties) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder publicAddress(java.net.URI)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs CONFIG_RESOURCE_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs.Property THREADS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs ratpack.launch.LaunchConfig createWithBaseDir(java.lang.ClassLoader, java.nio.file.Path, java.util.Properties)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs.Property HANDLER_FACTORY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs ratpack.launch.LaunchConfig createWithBaseDir(java.lang.ClassLoader, java.nio.file.Path, java.util.Properties, java.util.Map&lt;java.lang.String,java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs ratpack.launch.LaunchConfig createFromProperties(java.lang.ClassLoader, java.util.Properties, java.util.Properties)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs SYSPROP_PREFIX_PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder threads(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.RatpackMain ratpack.server.RatpackServer server(java.util.Properties, java.util.Properties)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder noBaseDir()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfig java.util.Map&lt;java.lang.String,java.lang.String&gt; getOtherPrefixedWith(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs.Property RELOADABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs.Property COMPRESSION_MIME_TYPE_WHITE_LIST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder baseDir(java.nio.file.Path) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder baseDir(java.nio.file.Path)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder compressionBlackListMimeTypes(java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder compressionWhiteListMimeTypes(java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder indexFiles(java.util.List&lt;java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs.Property TIME_RESPONSES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs.Property COMPRESS_RESPONSES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs.Property INDEX_FILES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs.Property SSL_KEYSTORE_FILE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs.Property PORT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs SYSPROP_PREFIX_DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder maxContentLength(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder compressionWhiteListMimeTypes(java.util.List&lt;java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs ratpack.launch.LaunchConfig createFromProperties(java.lang.ClassLoader, java.util.Properties, java.util.Properties) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfig java.util.Map&lt;java.lang.String,java.lang.String&gt; getOtherPrefixedWith(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder baseDir(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs ratpack.launch.LaunchConfig createFromGlobalProperties(java.lang.ClassLoader, java.lang.String, java.util.Properties, java.util.Properties) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs ratpack.launch.LaunchConfig createFromFile(java.lang.ClassLoader, java.nio.file.Path, java.nio.file.Path, java.util.Properties, java.util.Properties)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder port(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs ratpack.launch.LaunchConfig createFromGlobalProperties(java.lang.ClassLoader, java.util.Properties, java.util.Properties) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder other(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs.Property COMPRESSION_MIME_TYPE_BLACK_LIST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder address(java.net.InetAddress)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder timeResponses(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs CONFIG_RESOURCE_DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder compressResponses(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.RatpackMain ratpack.server.RatpackServer server(java.util.Properties, java.util.Properties) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder other(java.util.Map&lt;java.lang.String,java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs ratpack.launch.LaunchConfig createFromGlobalProperties(java.lang.ClassLoader, java.lang.String, java.util.Properties, java.util.Properties)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs ratpack.launch.LaunchConfig createFromProperties(java.lang.ClassLoader, java.util.Properties, java.util.Properties) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder compressionMinSize(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs.Property ADDRESS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs.Environment PORT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs.Property MAX_CONTENT_LENGTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs.Property COMPRESSION_MIN_SIZE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfig ratpack.exec.ExecController getExecController()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder compressionBlackListMimeTypes(java.util.List&lt;java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder reloadable(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder baseDir(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs.Property PUBLIC_ADDRESS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs java.util.Properties getDefaultPrefixedProperties()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs ratpack.launch.LaunchConfig createFromGlobalProperties(java.lang.ClassLoader, java.util.Properties, java.util.Properties) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigs.Property SSL_KEYSTORE_PASSWORD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.launch.LaunchConfigBuilder ratpack.launch.LaunchConfigBuilder ssl(javax.net.ssl.SSLContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

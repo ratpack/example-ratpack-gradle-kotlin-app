@@ -1,0 +1,59 @@
+<root>
+    <item name='ratpack.websocket.WebSockets ratpack.websocket.WebSocketConnector&lt;T&gt; websocket(ratpack.handling.Context, ratpack.func.Function&lt;ratpack.websocket.WebSocket,T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.websocket.WebSocketSpec ratpack.websocket.WebSocketSpec&lt;T&gt; onMessage(ratpack.func.Action&lt;ratpack.websocket.WebSocketMessage&lt;T&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.websocket.WebSocketConnector void connect(ratpack.func.Action&lt;? super ratpack.websocket.WebSocketSpec&lt;T&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.websocket.WebSocketSpec ratpack.websocket.WebSocketSpec&lt;T&gt; path(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.websocket.WebSocketSpec ratpack.websocket.WebSocketSpec&lt;T&gt; maxLength(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.websocket.WebSocketHandler void onClose(ratpack.websocket.WebSocketClose&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.websocket.AutoCloseWebSocketHandler void onClose(ratpack.websocket.WebSocketClose&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.websocket.WebSockets void websocket(ratpack.handling.Context, ratpack.websocket.WebSocketHandler&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.websocket.WebSocketSpec ratpack.websocket.WebSocketSpec&lt;T&gt; path(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.websocket.WebSocketSpec ratpack.websocket.WebSocketSpec&lt;T&gt; onClose(ratpack.func.Action&lt;ratpack.websocket.WebSocketClose&lt;T&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.websocket.WebSocket void send(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+</root>

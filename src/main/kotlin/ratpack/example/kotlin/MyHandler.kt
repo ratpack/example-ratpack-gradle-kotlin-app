@@ -9,7 +9,7 @@ import javax.inject.Inject
  * A handler implementation that is created via dependency injection.
  *
  * @see MyModule
- * @see HandlerBootstrap
+ * @see HandlerFactory
  */
 Singleton class MyHandler [Inject] (private val myService : MyService) : Handler {
   override fun handle(context : Context) {

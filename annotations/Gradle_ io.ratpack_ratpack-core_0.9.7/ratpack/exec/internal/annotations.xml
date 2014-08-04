@@ -1,0 +1,23 @@
+<root>
+    <item name='ratpack.exec.internal.DefaultExecController ratpack.exec.ExecControl getControl()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.exec.internal.DefaultPromise ratpack.exec.SuccessPromise&lt;T&gt; onError(ratpack.func.Action&lt;? super java.lang.Throwable&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.exec.internal.DefaultExecController ratpack.exec.Execution getExecution()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.exec.internal.DefaultExecController io.netty.channel.EventLoopGroup getEventLoopGroup()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.exec.internal.DefaultExecController.Execution void stream(org.reactivestreams.Publisher&lt;T&gt;, org.reactivestreams.Subscriber&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.exec.internal.DefaultExecController ratpack.exec.internal.DefaultExecController.Execution getExecution()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

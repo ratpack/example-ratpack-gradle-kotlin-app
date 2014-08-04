@@ -1,0 +1,308 @@
+<root>
+    <item name='ratpack.registry.internal.HierarchicalRegistry boolean each(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;, ratpack.func.Action&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.DefaultRegistryBuilder ratpack.registry.RegistrySpec add(java.lang.Class, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.SingleEntryRegistry java.lang.Iterable&lt;? extends O&gt; getAll(com.google.common.reflect.TypeToken&lt;O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.HierarchicalRegistry O get(java.lang.Class&lt;O&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.SingleEntryRegistry boolean each(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;, ratpack.func.Action&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.CachingRegistry boolean each(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;, ratpack.func.Action&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.SingleEntryRegistry T first(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.MultiEntryRegistry java.lang.Iterable&lt;? extends O&gt; getAll(java.lang.Class&lt;O&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.HierarchicalRegistry java.lang.Iterable&lt;? extends O&gt; getAll(com.google.common.reflect.TypeToken&lt;O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.MultiEntryRegistry java.lang.Iterable&lt;? extends O&gt; all(com.google.common.reflect.TypeToken&lt;O&gt;, com.google.common.base.Predicate&lt;? super O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.DefaultRegistryBuilder ratpack.registry.RegistrySpec add(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.DefaultRegistryBuilder ratpack.registry.RegistryBuilder add(java.lang.Class&lt;? super O&gt;, O)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.MultiEntryRegistry O first(com.google.common.reflect.TypeToken&lt;O&gt;, com.google.common.base.Predicate&lt;? super O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.DefaultRegistryBuilder ratpack.registry.Registry build(ratpack.registry.Registry)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.MultiEntryRegistry O get(com.google.common.reflect.TypeToken&lt;O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.HierarchicalRegistry O get(com.google.common.reflect.TypeToken&lt;O&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.CachingRegistry java.lang.Iterable&lt;? extends T&gt; all(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.HierarchicalRegistry O get(com.google.common.reflect.TypeToken&lt;O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.SimpleMutableRegistry java.lang.Iterable&lt;? extends T&gt; all(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.HierarchicalRegistry T first(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.MultiEntryRegistry java.lang.Iterable&lt;? extends O&gt; getAll(com.google.common.reflect.TypeToken&lt;O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.SingleEntryRegistry T first(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.CachingRegistry O get(com.google.common.reflect.TypeToken&lt;O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.SimpleMutableRegistry java.lang.Iterable&lt;? extends T&gt; getAll(com.google.common.reflect.TypeToken&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.SingleEntryRegistry java.lang.Iterable&lt;? extends T&gt; all(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.SingleEntryRegistry O get(com.google.common.reflect.TypeToken&lt;O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.SingleEntryRegistry boolean each(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;, ratpack.func.Action&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.SingleEntryRegistry O get(com.google.common.reflect.TypeToken&lt;O&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.CachingRegistry java.lang.Iterable&lt;? extends T&gt; all(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.CachingRegistry T first(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.CachingRegistry O get(com.google.common.reflect.TypeToken&lt;O&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.SingleEntryRegistry java.lang.Iterable&lt;? extends T&gt; all(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.CachingRegistry O get(java.lang.Class&lt;O&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.SimpleMutableRegistry T maybeGet(com.google.common.reflect.TypeToken&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.SingleEntryRegistry O maybeGet(com.google.common.reflect.TypeToken&lt;O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.DefaultRegistryBuilder ratpack.registry.RegistryBuilder add(java.lang.Class&lt;O&gt;, ratpack.func.Factory&lt;? extends O&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.SimpleMutableRegistry T first(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.SimpleMutableRegistry boolean each(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;, ratpack.func.Action&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.CachingRegistry java.lang.Iterable getAll(com.google.common.reflect.TypeToken) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.DefaultRegistryBuilder ratpack.registry.RegistrySpec add(java.lang.Class, ratpack.func.Factory)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.MultiEntryRegistry O maybeGet(com.google.common.reflect.TypeToken&lt;O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.DefaultRegistryBuilder ratpack.registry.RegistrySpec add(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.HierarchicalRegistry java.lang.Iterable&lt;? extends T&gt; all(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.HierarchicalRegistry O maybeGet(com.google.common.reflect.TypeToken&lt;O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.MultiEntryRegistry boolean each(com.google.common.reflect.TypeToken&lt;O&gt;, com.google.common.base.Predicate&lt;? super O&gt;, ratpack.func.Action&lt;? super O&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.HierarchicalRegistry T first(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.CachingRegistry T first(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.HierarchicalRegistry boolean each(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;, ratpack.func.Action&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.MultiEntryRegistry java.lang.Iterable&lt;? extends O&gt; getAll(com.google.common.reflect.TypeToken&lt;O&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.CachingRegistry O maybeGet(com.google.common.reflect.TypeToken&lt;O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.SimpleMutableRegistry void register(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.SimpleMutableRegistry T first(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.SingleEntryRegistry O get(java.lang.Class&lt;O&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.CachingRegistry boolean each(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;, ratpack.func.Action&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.SimpleMutableRegistry boolean each(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;, ratpack.func.Action&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.DefaultRegistryBuilder ratpack.registry.RegistryBuilder add(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.DefaultRegistryBuilder ratpack.registry.RegistryBuilder add(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.MultiEntryRegistry O first(com.google.common.reflect.TypeToken&lt;O&gt;, com.google.common.base.Predicate&lt;? super O&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.MultiEntryRegistry O get(com.google.common.reflect.TypeToken&lt;O&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.MultiEntryRegistry O get(java.lang.Class&lt;O&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.MultiEntryRegistry java.lang.Iterable&lt;? extends O&gt; all(com.google.common.reflect.TypeToken&lt;O&gt;, com.google.common.base.Predicate&lt;? super O&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.HierarchicalRegistry java.lang.Iterable&lt;? extends T&gt; all(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.DefaultRegistryBuilder ratpack.registry.Registry build()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.registry.internal.SimpleMutableRegistry java.lang.Iterable&lt;? extends T&gt; all(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.SimpleMutableRegistry T get(com.google.common.reflect.TypeToken&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.registry.internal.MultiEntryRegistry boolean each(com.google.common.reflect.TypeToken&lt;O&gt;, com.google.common.base.Predicate&lt;? super O&gt;, ratpack.func.Action&lt;? super O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+</root>

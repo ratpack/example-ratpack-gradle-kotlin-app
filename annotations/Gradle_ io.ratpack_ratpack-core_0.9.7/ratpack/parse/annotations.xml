@@ -1,0 +1,29 @@
+<root>
+    <item name='ratpack.parse.Parser T parse(ratpack.handling.Context, ratpack.http.TypedData, ratpack.parse.Parse&lt;T,O&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.parse.Parse ratpack.parse.Parse&lt;T,O&gt; of(java.lang.Class&lt;T&gt;, O)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.parse.Parse ratpack.parse.Parse&lt;T,O&gt; of(com.google.common.reflect.TypeToken&lt;T&gt;, O)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.parse.Parse ratpack.parse.Parse&lt;T,ratpack.parse.NullParseOpts&gt; of(com.google.common.reflect.TypeToken&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.parse.Parse ratpack.parse.Parse&lt;T,ratpack.parse.NullParseOpts&gt; of(java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.parse.NoOptParserSupport T parse(ratpack.handling.Context, ratpack.http.TypedData, ratpack.parse.Parse&lt;T,ratpack.parse.NullParseOpts&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.parse.NoOptParserSupport T parse(ratpack.handling.Context, ratpack.http.TypedData, com.google.common.reflect.TypeToken&lt;T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+</root>

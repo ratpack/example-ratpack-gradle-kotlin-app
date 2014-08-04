@@ -1,0 +1,263 @@
+<root>
+    <item name='ratpack.http.internal.HttpUrlSpecBacking ratpack.http.HttpUrlSpec params(java.util.Map&lt;java.lang.String,java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.HttpUrlSpecBacking ratpack.http.HttpUrlSpec path(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.RedirectionHandler void handle(ratpack.handling.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.MethodHandler PUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.ByteBufBackedTypedData java.io.InputStream getInputStream()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.MethodHandler PATCH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultResponse void send(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultRequest boolean each(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;, ratpack.func.Action&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.internal.DefaultResponse void send(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultHttpResponseChunkRenderer void render(ratpack.handling.Context, ratpack.http.HttpResponseChunks) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultRequest T first(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.internal.DefaultServerSentEventsRenderer void render(ratpack.handling.Context, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.AcceptsHandler void handle(ratpack.handling.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultServerSentEventsRenderer void render(ratpack.handling.Context, ratpack.http.ServerSentEvents) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultRequest O get(com.google.common.reflect.TypeToken&lt;O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.internal.DefaultRequest java.lang.Iterable&lt;? extends O&gt; getAll(com.google.common.reflect.TypeToken&lt;O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.internal.HttpUrlSpecBacking ratpack.http.HttpUrlSpec port(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultResponse io.netty.handler.codec.http.Cookie cookie(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultMediaType DEFAULT_CHARSET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.MimeParse ratpack.http.internal.MimeParse.FitnessAndQuality fitnessAndQualityParsed(java.lang.String, java.util.Collection&lt;ratpack.http.internal.MimeParse.ParseResults&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.HeaderHandler void handle(ratpack.handling.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultResponse void sendFile(ratpack.exec.ExecControl, java.nio.file.Path) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.MimeParse.FitnessAndQuality int compareTo(ratpack.http.internal.MimeParse.FitnessAndQuality) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultRequest void register(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.internal.MethodHandler void handle(ratpack.handling.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.MethodHandler GET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultResponse ratpack.http.MutableHeaders getHeaders()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultResponse void send(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.MultiMethodHandler void handle(ratpack.handling.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.HttpUrlSpecBacking ratpack.http.HttpUrlSpec params(java.lang.String...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultMediaType CHARSET_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.MimeParse.FitnessAndQuality int compareTo(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.HttpUrlSpecBacking ratpack.http.HttpUrlSpec params(com.google.common.collect.Multimap&lt;java.lang.String,java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.HttpUrlSpecBacking HttpUrlSpecBacking(java.net.URI) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.HttpUrlSpecBacking java.net.URI getURL()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.HttpUrlSpecBacking ratpack.http.HttpUrlSpec pathSegment(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultHttpResponseChunkRenderer void render(ratpack.handling.Context, ratpack.http.HttpResponseChunks) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.MimeParse ratpack.http.internal.MimeParse.ParseResults parseMimeType(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultRequest boolean each(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;, ratpack.func.Action&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.internal.DefaultHttpMethod boolean name(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultRequest java.lang.Iterable&lt;? extends T&gt; all(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.internal.NettyHeadersBackedMutableHeaders void remove(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.internal.DefaultResponse void send(java.io.InputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.MethodHandler POST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultResponse ratpack.http.Response status(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.MimeParse ratpack.http.internal.MimeParse.ParseResults parseMediaRange(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.HttpUrlSpecBacking ratpack.http.HttpUrlSpec secure()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultRequest java.lang.Iterable&lt;? extends T&gt; all(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.internal.MimeParse ratpack.http.internal.MimeParse.FitnessAndQuality fitnessAndQualityParsed(java.lang.String, java.util.Collection&lt;ratpack.http.internal.MimeParse.ParseResults&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.MimeParse java.lang.String bestMatch(java.lang.Iterable&lt;java.lang.String&gt;, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.HttpUrlSpecBacking ratpack.http.HttpUrlSpec host(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultResponse ratpack.http.Response contentType(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultResponse ratpack.http.Response status(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.HttpUrlSpecBacking ratpack.http.HttpUrlSpec params(java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultRequest O maybeGet(com.google.common.reflect.TypeToken&lt;O&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.internal.DefaultResponse io.netty.handler.codec.http.Cookie expireCookie(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultHttpResponseChunkRenderer void render(ratpack.handling.Context, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.HttpUrlSpecBacking ratpack.http.HttpUrlSpec path(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultRequest ratpack.http.HttpMethod getMethod()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.HttpUrlSpecBacking ratpack.http.HttpUrlSpec set(java.net.URI) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.ContentNegotiationHandler void handle(ratpack.handling.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.MimeParse ratpack.http.internal.MimeParse.FitnessAndQuality fitnessAndQualityParsed(java.lang.String, java.util.Collection&lt;ratpack.http.internal.MimeParse.ParseResults&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.MethodHandler MethodHandler(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultServerSentEventsRenderer void render(ratpack.handling.Context, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.MimeParse java.lang.String bestMatch(java.lang.Iterable&lt;java.lang.String&gt;, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.MethodHandler DELETE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultRequest T first(com.google.common.reflect.TypeToken&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.http.internal.HttpUrlSpecBacking ratpack.http.HttpUrlSpec set(java.net.URI)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultServerSentEventsRenderer void render(ratpack.handling.Context, ratpack.http.ServerSentEvents) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultStreamTransmitter void transmit(ratpack.exec.ExecControl, org.reactivestreams.Publisher&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.HttpUrlSpecBacking ratpack.http.HttpUrlSpec params(java.util.Map&lt;java.lang.String,java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.ContentTypeHandler void handle(ratpack.handling.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.MimeParse ratpack.http.internal.MimeParse.ParseResults parseMediaRange(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.MimeParse ratpack.http.internal.MimeParse.ParseResults parseMimeType(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultHttpResponseChunkRenderer void render(ratpack.handling.Context, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.internal.DefaultMediaType UTF8'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,62 @@
+<root>
+    <item name='ratpack.file.internal.DefaultFileSystemBinding java.nio.file.Path file(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.file.internal.FileHttpTransmitter void transmit(ratpack.exec.ExecControl, java.nio.file.attribute.BasicFileAttributes, java.nio.file.Path) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.file.internal.DefaultFileRenderer void render(ratpack.handling.Context, java.nio.file.Path) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.file.internal.DefaultFileSystemBinding ratpack.file.FileSystemBinding binding(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.file.internal.FileHttpTransmitter void transmit(ratpack.exec.ExecControl, java.nio.file.attribute.BasicFileAttributes, java.nio.file.Path) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.file.internal.FileSystemBindingHandler FileSystemBindingHandler(ratpack.launch.LaunchConfig, java.lang.String, ratpack.handling.Handler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.file.internal.AssetHandler void handle(ratpack.handling.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.file.internal.DefaultFileHttpTransmitter void transmit(ratpack.exec.ExecControl, java.nio.file.attribute.BasicFileAttributes, java.nio.file.Path) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.file.internal.DefaultFileHttpTransmitter void transmit(ratpack.exec.ExecControl, java.nio.file.attribute.BasicFileAttributes, java.nio.file.Path) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.file.internal.DefaultFileRenderer void render(ratpack.handling.Context, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.file.internal.DefaultFileSystemBinding java.nio.file.Path getFile()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.file.internal.DefaultFileHttpTransmitter DefaultFileHttpTransmitter(io.netty.handler.codec.http.HttpHeaders, ratpack.file.MimeTypes, boolean, java.lang.Long, com.google.common.collect.ImmutableSet&lt;java.lang.String&gt;, com.google.common.collect.ImmutableSet&lt;java.lang.String&gt;, ratpack.func.Action&lt;? super ratpack.func.Action&lt;? super ratpack.file.internal.ResponseTransmitter&gt;&gt;) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.file.internal.DefaultFileRenderer void sendFile(ratpack.handling.Context, java.nio.file.Path, java.nio.file.attribute.BasicFileAttributes) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.file.internal.DefaultFileSystemBinding DefaultFileSystemBinding(java.nio.file.Path) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.file.internal.DefaultFileRenderer void render(ratpack.handling.Context, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.file.internal.DefaultFileRenderer void readAttributes(ratpack.exec.ExecControl, java.nio.file.Path, ratpack.func.Action&lt;? super java.nio.file.attribute.BasicFileAttributes&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.file.internal.FileSystemBindingHandler void handle(ratpack.handling.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

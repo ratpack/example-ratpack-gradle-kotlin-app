@@ -1,0 +1,8 @@
+<root>
+    <item name='ratpack.http.client.internal.RequestSpecBacking java.net.URI getUrl()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.http.client.internal.RequestSpecBacking ratpack.http.client.RequestSpec asSpec()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

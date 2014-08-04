@@ -1,0 +1,56 @@
+<root>
+    <item name='ratpack.server.internal.ServerSentEventEncoder void encode(io.netty.channel.ChannelHandlerContext, java.lang.Object, java.util.List) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.server.internal.ServerSentEventEncoder EVENT_DATA_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.server.internal.ServerSentEventEncoder void encode(io.netty.channel.ChannelHandlerContext, java.lang.Object, java.util.List) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.server.internal.NettyRatpackServer java.lang.String getScheme()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.server.internal.NettyHandlerAdapter void channelRead0(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.http.FullHttpRequest) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.server.internal.ServerSentEventEncoder void encode(io.netty.channel.ChannelHandlerContext, ratpack.http.ServerSentEvent, java.util.List&lt;java.lang.Object&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.server.internal.NettyHandlerAdapter void channelRead0(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.http.FullHttpRequest) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.server.internal.RatpackChannelInitializer void initChannel(io.netty.channel.Channel) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.server.internal.ServerSentEventEncoder void encode(io.netty.channel.ChannelHandlerContext, ratpack.http.ServerSentEvent, java.util.List&lt;java.lang.Object&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.server.internal.ServerSentEventEncoder EVENT_ID_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.server.internal.NettyHandlerAdapter void channelRead0(io.netty.channel.ChannelHandlerContext, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.server.internal.ServerSentEventEncoder EVENT_TYPE_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.server.internal.InetSocketAddressBackedBindAddress java.lang.String determineHost(java.net.InetSocketAddress) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.server.internal.NettyHandlerAdapter NettyHandlerAdapter(ratpack.server.Stopper, ratpack.handling.Handler, ratpack.launch.LaunchConfig) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.server.internal.NettyHandlerAdapter void channelRead0(io.netty.channel.ChannelHandlerContext, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.server.internal.InetSocketAddressBackedBindAddress InetSocketAddressBackedBindAddress(java.net.InetSocketAddress) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.server.internal.RatpackChannelInitializer RatpackChannelInitializer(ratpack.launch.LaunchConfig, ratpack.handling.Handler, ratpack.server.Stopper) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.server.internal.RatpackChannelInitializer void initChannel(io.netty.channel.socket.SocketChannel) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

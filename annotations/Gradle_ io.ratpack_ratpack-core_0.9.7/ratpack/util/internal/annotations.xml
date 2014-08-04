@@ -1,0 +1,41 @@
+<root>
+    <item name='ratpack.util.internal.Validations void noLeadingForwardSlash(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.util.internal.NumberUtil java.math.BigDecimal convertNanoDiff(long, long, java.util.concurrent.TimeUnit) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.util.internal.PropertiesUtil void extractProperties(java.lang.String, java.util.Properties, java.util.Map&lt;? super java.lang.String,? super java.lang.String&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.util.internal.IoUtils io.netty.buffer.ByteBuf writeTo(java.io.InputStream, io.netty.buffer.ByteBuf) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.util.internal.Types java.lang.Class&lt;T&gt; findImplParameterTypeAtIndex(java.lang.Class&lt;?&gt;, java.lang.Class&lt;?&gt;, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.util.internal.IoUtils byte[] utf8Bytes(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.util.internal.ReleasingAction void doExecute(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.util.internal.Types java.lang.reflect.ParameterizedType findParameterizeImplType(java.lang.reflect.Type, java.lang.Class&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.util.internal.ImmutableDelegatingMultiValueMap java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; entrySet()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.util.internal.ReleasingAction void execute(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.util.internal.ReleasingAction void execute(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.util.internal.IoUtils java.lang.String utf8String(io.netty.buffer.ByteBuf) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

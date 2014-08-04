@@ -1,0 +1,26 @@
+<root>
+    <item name='ratpack.form.internal.FormParser ratpack.form.internal.FormParser multiPart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.form.internal.FormDecoder ratpack.form.Form parseForm(ratpack.handling.Context, ratpack.http.TypedData) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.form.internal.DefaultForm ratpack.form.UploadedFile file(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='ratpack.form.internal.FormDecoder ratpack.form.Form parseForm(ratpack.handling.Context, ratpack.http.TypedData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.form.internal.FormDecoder ratpack.form.Form parseForm(ratpack.handling.Context, ratpack.http.TypedData) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.form.internal.FormParser ratpack.form.internal.FormParser urlEncoded()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='ratpack.form.internal.FormParser T parse(ratpack.handling.Context, ratpack.http.TypedData, com.google.common.reflect.TypeToken&lt;T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>
