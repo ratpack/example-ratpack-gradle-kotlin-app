@@ -28,6 +28,10 @@ class MyModule : AbstractModule(), HandlerDecoratingModule {
    * @see HandlerDecoratingModule
    */
   override fun decorate(injector : Injector?, handler : Handler?) : Handler? {
-    return chain(array(LoggingHandler(), handler).toList())
+    return chain(LoggingHandler(), handler)
   }
+}
+
+fun AbstractModule.chain(vararg handlers : Handler) : Handler {
+  return chain(handlers.toList())!!
 }
