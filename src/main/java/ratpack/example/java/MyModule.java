@@ -3,6 +3,7 @@ package ratpack.example.java;
 import com.google.inject.AbstractModule;
 import com.google.inject.Injector;
 import ratpack.example.kotlin.LoggingHandler;
+import ratpack.example.kotlin.MyServiceImpl;
 import ratpack.guice.HandlerDecoratingModule;
 import ratpack.handling.Handler;
 
