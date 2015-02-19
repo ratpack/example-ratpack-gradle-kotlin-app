@@ -5,14 +5,13 @@ import java.io.InputStreamReader
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
 import org.junit.Test
-import ratpack.test.RatpackMainApplicationUnderTest
 import kotlin.test.assertEquals
 import kotlin.test.fail
 
 [RunWith(javaClass<JUnit4>())]
 class SiteTest {
 
-  val aut = RatpackMainApplicationUnderTest()
+  val aut = KotlinApplicationUnderTest(::main)
 
   Test fun fooHandler() {
     assertEquals("from the foo handler", get("/foo"))
@@ -41,12 +40,12 @@ class SiteTest {
   }
 
   private fun get(path : String) : String {
-    val uri = aut.getAddress()!!.resolve(path)
+    val uri = aut.getAddress().resolve(path)
     val stream = uri.toURL().openStream()
     try {
-      val reader = InputStreamReader(stream!!)
+      val reader = InputStreamReader(stream)
       try {
-        return CharStreams.toString(reader)!!
+        return CharStreams.toString(reader)
       } finally {
         reader.close()
       }

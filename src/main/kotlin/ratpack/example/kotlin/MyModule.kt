@@ -17,7 +17,7 @@ class MyModule : AbstractModule(), HandlerDecoratingModule {
    * @see MyHandler
    */
   protected override fun configure() {
-    bind(javaClass<MyService>())!!.to(javaClass<MyServiceImpl>())
+    bind(javaClass<MyService>()).to(javaClass<MyServiceImpl>())
   }
 
   /**
@@ -30,4 +30,4 @@ class MyModule : AbstractModule(), HandlerDecoratingModule {
   override fun decorate(injector : Injector?, handler : Handler?) = chain(LoggingHandler(), handler)
 }
 
-fun AbstractModule.chain(vararg handlers : Handler) = chain(handlers.toList())!!
+fun AbstractModule.chain(vararg handlers : Handler) = chain(handlers.toList())

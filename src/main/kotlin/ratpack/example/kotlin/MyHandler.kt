@@ -13,6 +13,6 @@ import javax.inject.Inject
  */
 Singleton class MyHandler [Inject] (private val myService : MyService) : Handler {
   override fun handle(context : Context) {
-    context.getResponse()!!.send("service value: ${myService.getValue()}")
+    context.getResponse().send("service value: ${myService.getValue()}")
   }
 }
