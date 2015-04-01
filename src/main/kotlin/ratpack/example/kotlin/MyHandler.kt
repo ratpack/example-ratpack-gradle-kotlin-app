@@ -9,7 +9,6 @@ import javax.inject.Singleton
  * A handler implementation that is created via dependency injection.
  *
  * @see MyModule
- * @see HandlerFactory
  */
 Singleton class MyHandler [Inject] (val myService : MyService) : Handler {
   override fun handle(context : Context) =
