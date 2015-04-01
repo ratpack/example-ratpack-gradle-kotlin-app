@@ -1,13 +1,12 @@
 package ratpack.example.kotlin
 
-import ratpack.test.ServerBackedApplicationUnderTest
-import ratpack.server.RatpackServer
-import ratpack.server.internal.ServerCapturer
 import ratpack.registry.Registries
 import ratpack.registry.Registry
-import kotlin.reflect.KFunction1
+import ratpack.server.RatpackServer
+import ratpack.server.internal.ServerCapturer
+import ratpack.test.ServerBackedApplicationUnderTest
 
-class KotlinApplicationUnderTest(private val mainFun : KFunction1<Array<String>, Unit>) : ServerBackedApplicationUnderTest() {
+class KotlinApplicationUnderTest(val mainFun : (Array<String>) -> Unit) : ServerBackedApplicationUnderTest() {
   protected fun createOverrides(serverRegistry : Registry) : Registry = Registries.empty()
 
   override fun createServer() : RatpackServer =
@@ -19,6 +18,6 @@ class KotlinApplicationUnderTest(private val mainFun : KFunction1<Array<String>,
       ) {
         mainFun(array<String>())
       }.orElseThrow { ->
-        IllegalStateException("${mainFun.javaClass}.main() did not start a Ratpack server")
+        IllegalStateException("${mainFun} did not start a Ratpack server")
       }
 }
