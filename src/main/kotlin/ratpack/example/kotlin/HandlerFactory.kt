@@ -1,15 +1,14 @@
 package ratpack.example.kotlin
 
-import ratpack.registry.Registry
 import ratpack.guice.Guice
+import ratpack.registry.Registry
 
 class HandlerFactory : ratpack.launch.HandlerFactory {
   override fun create(registry : Registry) = Guice.builder(registry)
-      .bindings({ registry -> registry.add(MyModule()) })
-      .build({ chain ->
-        chain
-            // Map to /foo
-            .handler("foo") { context -> context.render("from the foo handler") }
+      .bindings { registry -> registry.add(MyModule()) }
+      .build { chain ->
+        // Map to /foo
+        chain.handler("foo") { context -> context.render("from the foo handler") }
 
             // Map to /bar
             .handler("bar") { context -> context.render("from the bar handler") }
@@ -33,5 +32,5 @@ class HandlerFactory : ratpack.launch.HandlerFactory {
 
             // If nothing above matched, we'll get to here.
             .handler { context -> context.render("root handler!") }
-      })
+      }
 }

@@ -29,5 +29,3 @@ class MyModule : AbstractModule(), HandlerDecoratingModule {
    */
   override fun decorate(injector : Injector?, handler : Handler?) = chain(LoggingHandler(), handler)
 }
-
-fun AbstractModule.chain(vararg handlers : Handler) = chain(handlers.toList())
