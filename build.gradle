@@ -3,9 +3,9 @@ buildscript {
     jcenter()
   }
   dependencies {
-    classpath "io.ratpack:ratpack-gradle:0.9.15",
+    classpath "io.ratpack:ratpack-gradle:0.9.17",
         "com.github.jengelman.gradle.plugins:shadow:1.2.1",
-        "org.jetbrains.kotlin:kotlin-gradle-plugin:0.11.91.1"
+        "org.jetbrains.kotlin:kotlin-gradle-plugin:0.12.200"
   }
 }
 
@@ -23,7 +23,7 @@ repositories {
 }
 
 dependencies {
-  compile "org.jetbrains.kotlin:kotlin-stdlib:0.11.91.1"
+  compile "org.jetbrains.kotlin:kotlin-stdlib:0.12.200"
   compile ratpack.dependency("guice")
   testCompile "junit:junit:4.12"
 }

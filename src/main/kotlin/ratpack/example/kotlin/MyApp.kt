@@ -10,8 +10,8 @@ private val log = getLogger(::main.javaClass)
 fun main(args : Array<String>) {
   try {
     RatpackServer.of {
-      it.serverConfig(ServerConfig.findBaseDirProps())
-          .registry(Guice.registry { bindingSpec -> bindingSpec.add(MyModule()) })
+      it.serverConfig(ServerConfig.findBaseDir())
+          .registry(Guice.registry { bindingSpec -> bindingSpec.module(javaClass<MyModule>()) })
           .handlers { chain ->
             chain.handler("foo", { context -> context.render("from the foo handler") }) // Map to /foo
                 .handler("bar", { context -> context.render("from the bar handler") }) // Map to /bar

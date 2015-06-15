@@ -2,3 +2,5 @@
 /build
 /.idea
 *.iml
+*.iws
+*.ipr
