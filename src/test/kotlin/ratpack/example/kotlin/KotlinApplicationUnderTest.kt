@@ -1,13 +1,12 @@
 package ratpack.example.kotlin
 
-import ratpack.registry.Registries
 import ratpack.registry.Registry
 import ratpack.server.RatpackServer
 import ratpack.server.internal.ServerCapturer
 import ratpack.test.ServerBackedApplicationUnderTest
 
 class KotlinApplicationUnderTest(val mainFun : (Array<String>) -> Unit) : ServerBackedApplicationUnderTest() {
-  protected fun createOverrides(serverRegistry : Registry) : Registry = Registries.empty()
+  protected fun createOverrides(serverRegistry : Registry) : Registry = Registry.empty()
 
   override fun createServer() : RatpackServer =
       ServerCapturer.capture(
@@ -16,7 +15,7 @@ class KotlinApplicationUnderTest(val mainFun : (Array<String>) -> Unit) : Server
               .development(true)
               .registry { registry -> createOverrides(registry) }
       ) {
-        mainFun(array<String>())
+        mainFun(arrayOf<String>())
       }.orElseThrow { ->
         IllegalStateException("${mainFun} did not start a Ratpack server")
       }
