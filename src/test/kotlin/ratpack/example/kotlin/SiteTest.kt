@@ -1,17 +1,17 @@
 package ratpack.example.kotlin
 
 import com.google.common.io.CharStreams
-import java.io.InputStreamReader
+import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
-import org.junit.Test
+import java.io.InputStreamReader
 import kotlin.test.assertEquals
 import kotlin.test.fail
 
-[RunWith(javaClass<JUnit4>())]
+@RunWith(JUnit4::class)
 class SiteTest {
 
-  val aut = KotlinApplicationUnderTest(::main)
+  val aut = MainFunctionApplicationUnderTest(::main)
 
   Test fun fooHandler() {
     assertEquals("from the foo handler", get("/foo"))
@@ -22,8 +22,10 @@ class SiteTest {
   }
 
   Test fun nestedHandler() {
-    assertEquals("from the nested handler, var1: x, var2: null", get("/nested/x"))
-    assertEquals("from the nested handler, var1: x, var2: y", get("/nested/x/y"))
+    assertEquals("from the nested handler, var1: x, var2: null",
+                 get("/nested/x"))
+    assertEquals("from the nested handler, var1: x, var2: y",
+                 get("/nested/x/y"))
   }
 
   Test fun injectedHandler() {
@@ -39,7 +41,7 @@ class SiteTest {
     assertEquals("root handler!", get("/unknown-path"))
   }
 
-  private fun get(path : String) : String {
+  private fun get(path: String): String {
     val uri = aut.getAddress().resolve(path)
     val stream = uri.toURL().openStream()
     try {
@@ -49,7 +51,7 @@ class SiteTest {
       } finally {
         reader.close()
       }
-    } catch (ex : Exception) {
+    } catch (ex: Exception) {
       fail(ex.toString())
       return "" // unreachable
     } finally {

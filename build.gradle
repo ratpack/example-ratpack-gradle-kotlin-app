@@ -3,9 +3,9 @@ buildscript {
     jcenter()
   }
   dependencies {
-    classpath "io.ratpack:ratpack-gradle:0.9.18",
+    classpath "io.ratpack:ratpack-gradle:0.9.19",
         "com.github.jengelman.gradle.plugins:shadow:1.2.1",
-        "org.jetbrains.kotlin:kotlin-gradle-plugin:0.12.200"
+        "org.jetbrains.kotlin:kotlin-gradle-plugin:0.12.1230"
   }
 }
 
@@ -16,33 +16,29 @@ if (!JavaVersion.current().java8Compatible) {
 apply plugin: "io.ratpack.ratpack-java"
 apply plugin: "com.github.johnrengelman.shadow"
 apply plugin: "kotlin"
+apply plugin: "idea"
 
 repositories {
   jcenter()
 }
 
 dependencies {
-  compile "org.jetbrains.kotlin:kotlin-stdlib:0.12.200"
+  compile "org.jetbrains.kotlin:kotlin-stdlib:0.12.1230"
   compile ratpack.dependency("guice")
   testCompile "junit:junit:4.12"
 }
 
-compileKotlin {
-  kotlinOptions.annotations = file("annotations/ratpack")
-}
-
-apply plugin: "idea"
-
 idea {
   project {
-    //use JDK 1.8 in idea
     jdkName "1.8"
-    languageLevel "1.8"
+    languageLevel "JDK_1_8"
+    vcs = "Git"
     ipr {
-      withXml { provider ->
-        def node = provider.asNode()
-        //configure git support for the project in idea
-        node.component.find { it.'@name' == 'VcsDirectoryMappings' }?.mapping[0].'@vcs' = 'Git'
+      withXml {
+        def node = it.asNode()
+        def parser = new XmlParser()
+        node.append(parser.parse(file("${rootDir}/gradle/idea/codeStyleSettings.xml")))
+        node.append(parser.parse(file("${rootDir}/gradle/idea/gradleSettings.xml")))
       }
     }
   }

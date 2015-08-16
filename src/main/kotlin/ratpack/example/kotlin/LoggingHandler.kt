@@ -9,7 +9,7 @@ import ratpack.handling.Handler
  * @see MyModule
  */
 class LoggingHandler : Handler {
-  override fun handle(context : Context) {
+  override fun handle(context: Context) {
     println("Received: ${context.getRequest()?.getUri()}")
     context.next()
   }

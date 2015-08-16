@@ -19,7 +19,7 @@ class MyModule : AbstractModule() {
     bind(javaClass<MyService>()).to(javaClass<MyServiceImpl>())
     bind(javaClass<MyHandler>())
     Multibinder.newSetBinder(binder(), javaClass<HandlerDecorator>())
-        .addBinding()
-        .toInstance(HandlerDecorator.prepend(LoggingHandler()))
+      .addBinding()
+      .toInstance(HandlerDecorator.prepend(LoggingHandler()))
   }
 }

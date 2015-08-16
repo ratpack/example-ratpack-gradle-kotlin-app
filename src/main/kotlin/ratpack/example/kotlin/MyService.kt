@@ -6,5 +6,5 @@ package ratpack.example.kotlin
  * @see MyHandler
  */
 interface MyService {
-  fun getValue() : String
+  fun getValue(): String
 }
