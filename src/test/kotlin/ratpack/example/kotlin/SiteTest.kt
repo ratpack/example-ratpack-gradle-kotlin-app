@@ -4,6 +4,7 @@ import com.google.common.io.CharStreams
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
+import ratpack.test.MainClassApplicationUnderTest
 import java.io.InputStreamReader
 import kotlin.test.assertEquals
 import kotlin.test.fail
@@ -11,7 +12,7 @@ import kotlin.test.fail
 @RunWith(JUnit4::class)
 class SiteTest {
 
-  val aut = MainFunctionApplicationUnderTest(::main)
+  val aut = MainClassApplicationUnderTest(Main.javaClass)
 
   Test fun fooHandler() {
     assertEquals("from the foo handler", get("/foo"))
