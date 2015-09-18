@@ -12,38 +12,38 @@ import kotlin.test.fail
 @RunWith(JUnit4::class)
 class SiteTest {
 
-  val aut = MainClassApplicationUnderTest(Main.javaClass)
+  val aut = MainClassApplicationUnderTest(Main::class.java)
 
-  Test fun fooHandler() {
+  @Test fun fooHandler() {
     assertEquals("from the foo handler", get("/foo"))
   }
 
-  Test fun barHandler() {
+  @Test fun barHandler() {
     assertEquals("from the bar handler", get("/bar"))
   }
 
-  Test fun nestedHandler() {
+  @Test fun nestedHandler() {
     assertEquals("from the nested handler, var1: x, var2: null",
                  get("/nested/x"))
     assertEquals("from the nested handler, var1: x, var2: y",
                  get("/nested/x/y"))
   }
 
-  Test fun injectedHandler() {
+  @Test fun injectedHandler() {
     assertEquals("service value: service-value", get("/injected"))
   }
 
-  Test fun staticHandler() {
+  @Test fun staticHandler() {
     assertEquals("text asset\n", get("/static/test.txt"))
   }
 
-  Test fun rootHandler() {
+  @Test fun rootHandler() {
     assertEquals("root handler!", get("/"))
     assertEquals("root handler!", get("/unknown-path"))
   }
 
   private fun get(path: String): String {
-    val uri = aut.getAddress().resolve(path)
+    val uri = aut.address.resolve(path)
     val stream = uri.toURL().openStream()
     try {
       val reader = InputStreamReader(stream)

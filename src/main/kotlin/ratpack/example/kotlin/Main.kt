@@ -4,13 +4,11 @@ import org.slf4j.LoggerFactory.getLogger
 import ratpack.guice.Guice
 import ratpack.server.BaseDir
 import ratpack.server.RatpackServer
-import kotlin.platform.platformStatic
-
 
 object Main {
-  private val log = getLogger(Main.javaClass)
+  private val log = getLogger(Main::class.java)
 
-  @platformStatic
+  @JvmStatic
   fun main(args: Array<String>) {
     try {
       RatpackServer.of { server ->
@@ -42,7 +40,7 @@ object Main {
                   })
               })
               // Map to a dependency injected handler
-              .path("injected", javaClass<MyHandler>())
+              .path("injected", MyHandler::class.java)
               // Bind the /static app path to the src/ratpack/assets/images dir
               .prefix("static", { nested ->
                 nested.fileSystem("assets/images", { f -> f.files() })

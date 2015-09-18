@@ -16,9 +16,9 @@ class MyModule : AbstractModule() {
    * @see MyHandler
    */
   protected override fun configure() {
-    bind(javaClass<MyService>()).to(javaClass<MyServiceImpl>())
-    bind(javaClass<MyHandler>())
-    Multibinder.newSetBinder(binder(), javaClass<HandlerDecorator>())
+    bind(MyService::class.java).to(MyServiceImpl::class.java)
+    bind(MyHandler::class.java)
+    Multibinder.newSetBinder(binder(), HandlerDecorator::class.java)
       .addBinding()
       .toInstance(HandlerDecorator.prepend(LoggingHandler()))
   }
