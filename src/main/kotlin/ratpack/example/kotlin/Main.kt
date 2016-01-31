@@ -2,6 +2,7 @@ package ratpack.example.kotlin
 
 import org.slf4j.LoggerFactory.getLogger
 import ratpack.guice.Guice
+import ratpack.handling.Context
 import ratpack.server.BaseDir
 import ratpack.server.RatpackServer
 
@@ -29,14 +30,16 @@ object Main {
               .path("bar", { context ->
                 context.render("from the bar handler")
               })
+              // Map to /baz using a Kotlin function
+              .path("baz", ::bazHandler)
               // Set up a nested routing block, which is delegated to `nestedHandler`
               .prefix("nested", { nested ->
                 nested
                   .path(":var1/:var2?", { context ->
                     // The path tokens are the :var1 and :var2 path components above
-                    val pathTokens = context.getPathTokens()
+                    val pathTokens = context.pathTokens
                     context
-                      .render("from the nested handler, var1: ${pathTokens.get("var1")}, var2: ${pathTokens.get("var2")}")
+                      .render("from the nested handler, var1: ${pathTokens["var1"]}, var2: ${pathTokens["var2"]}")
                   })
               })
               // Map to a dependency injected handler
@@ -54,3 +57,5 @@ object Main {
     }
   }
 }
+
+fun bazHandler(context: Context) = context.render("from the baz handler")

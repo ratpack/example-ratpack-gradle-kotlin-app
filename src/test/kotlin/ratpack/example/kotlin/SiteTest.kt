@@ -22,6 +22,10 @@ class SiteTest {
     assertEquals("from the bar handler", get("/bar"))
   }
 
+  @Test fun bazHandler() {
+    assertEquals("from the baz handler", get("/baz"))
+  }
+
   @Test fun nestedHandler() {
     assertEquals("from the nested handler, var1: x, var2: null",
                  get("/nested/x"))
