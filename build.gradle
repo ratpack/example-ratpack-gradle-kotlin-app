@@ -1,11 +1,13 @@
+
 buildscript {
   repositories {
     jcenter()
   }
+
   dependencies {
-    classpath "io.ratpack:ratpack-gradle:1.1.1",
+    classpath "io.ratpack:ratpack-gradle:1.2.0",
         "com.github.jengelman.gradle.plugins:shadow:1.2.3",
-        "org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.0-beta-4589"
+        "org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.1-2"
   }
 }
 
@@ -23,10 +25,10 @@ repositories {
 }
 
 dependencies {
-  compile "org.jetbrains.kotlin:kotlin-stdlib:1.0.0-beta-4589"
+  compile "org.jetbrains.kotlin:kotlin-stdlib:1.0.+"
   compile ratpack.dependency("guice")
-  testCompile "junit:junit:4.12"
-  testCompile "org.jetbrains.kotlin:kotlin-test:1.0.0-beta-4589"
+  testCompile "junit:junit:4.+"
+  testCompile "org.jetbrains.kotlin:kotlin-test:1.0.+"
 }
 
 idea {
@@ -45,4 +47,4 @@ idea {
   }
 }
 
-mainClassName = "ratpack.example.kotlin.Main"
+mainClassName = "ratpack.example.kotlin.MainKt"
