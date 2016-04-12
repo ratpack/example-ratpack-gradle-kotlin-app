@@ -20,9 +20,6 @@ class MyModule : AbstractModule() {
         bind(MyHandler::class.java)
         Multibinder.newSetBinder(binder(), HandlerDecorator::class.java)
             .addBinding()
-            .toInstance(HandlerDecorator.prepend {
-                println("Received: ${it.request.uri}")
-                it.next()
-            })
+            .toInstance(HandlerDecorator.prepend(LoggingHandler()))
     }
 }

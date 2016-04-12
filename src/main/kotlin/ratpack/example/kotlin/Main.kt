@@ -17,25 +17,25 @@ fun main(args: Array<String>) {
     }
 }
 
-fun createServer() = kserverOf {
-    kserverConfig {
+fun createServer() = serverOf {
+    serverConfig {
         baseDir(BaseDir.find())
     }
 
-    kguiceRegistry {
+    guiceRegistry {
         module(MyModule())
     }
 
-    khandlers {
-        kpath("foo") { render("from the foo handler") }
-        kpath("bar") { render("from the bar handler") }
+    handlers {
+        path("foo") { render("from the foo handler") }
+        path("bar") { render("from the bar handler") }
 
         // Map to /baz using a Kotlin function
-        kpath("baz", ::bazHandler)
+        path("baz", ::bazHandler)
 
         // Set up a nested routing block, which is delegated to `nestedHandler`
-        kprefix("nested") {
-            kpath(":var1/:var2?") {
+        prefix("nested") {
+            path(":var1/:var2?") {
                 // The path tokens are the :var1 and :var2 path components above
                 render("from the nested handler, var1: ${pathTokens["var1"]}, var2: ${pathTokens["var2"]}")
             }
@@ -45,11 +45,11 @@ fun createServer() = kserverOf {
         path("injected", MyHandler::class.java)
 
         // Bind the /static app path to the src/ratpack/assets/images dir
-        kprefix("static") {
-            kfileSystem("assets/images") { files() }
+        prefix("static") {
+            fileSystem("assets/images") { files() }
         }
 
-        kall { render("root handler!") }
+        all { render("root handler!") }
     }
 }
 
