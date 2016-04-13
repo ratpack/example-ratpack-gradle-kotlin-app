@@ -47,4 +47,4 @@ idea {
   }
 }
 
-mainClassName = "ratpack.example.kotlin.MainKt"
+mainClassName = "ratpack.example.kotlin.Main"
