@@ -4,6 +4,7 @@ This is an example Ratpack app that:
 2. Use Guice for dependency injection
 3. Uses the `ratpack` Gradle plugin
 4. Uses SpringSource's SpringLoaded for runtime reloading of classes during development
+5. Adds helper functions to make Ratpack more Kotlin like (see `helpers.kt`)
 
 ## Getting Started
 
@@ -22,16 +23,16 @@ Run:
     cd build/install/example-ratpack-gradle-java-app
     bin/example-ratpack-gradle-java-app
 
-Your app should now be running (see http://gradle.org/docs/current/userguide/application_plugin.html) for more on what
-the Gradle application plugin can do for you.
+Your app should now be running (see http://gradle.org/docs/current/userguide/application_plugin.html) for more
+on what the Gradle application plugin can do for you.
 
 ## Development time reloading
 
-Most application classes can be changed at runtime without needing to restart the application. This is made possible by
-[SpringSource's SpringLoaded](https://github.com/SpringSource/spring-loaded) library.
+Most application classes can be changed at runtime without needing to restart the application. This is made
+possible by [SpringSource's SpringLoaded](https://github.com/SpringSource/spring-loaded) library.
 
-If running the application via `./gradlew run`, you must run `./gradlew classes` in another shell in order for your source
-code changes to be compiled.
+If running the application via `./gradlew run`, you must run `./gradlew classes` in another shell in order for
+your source code changes to be compiled.
 
 ## IDEA integration
 
@@ -43,8 +44,9 @@ This will generate a `.ipr` file that you can use to open the project in IDEA.
 
 In the “Run” menu, you will find a run configuration for launching the Ratpack app from within your IDE.
 
-Hot reloading is supported in this mode. IDEA does not automatically compile source code changes while the Ratpack app is
-running. After making a change you must make the project to have the changes take effect (⌘9 on Mac OS).
+Hot reloading is supported in this mode. IDEA does not automatically compile source code changes while the
+Ratpack app is running. After making a change you must make the project to have the changes take effect (⌘9 on
+Mac OS).
 
 ## More on Ratpack
 

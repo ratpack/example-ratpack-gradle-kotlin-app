@@ -11,6 +11,6 @@ import javax.inject.Singleton
  * @see MyModule
  */
 @Singleton class MyHandler @Inject constructor(val myService: MyService) : Handler {
-  override fun handle(context: Context) =
-    context.response.send("service value: ${myService.getValue()}")
+    override fun handle(context: Context) =
+        context.response.send("service value: ${myService.getValue()}")
 }
