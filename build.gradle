@@ -22,12 +22,16 @@ apply plugin: "idea"
 
 repositories {
   jcenter()
+  maven {
+      url "http://repository.jetbrains.com/all"
+  }
 }
 
 dependencies {
   compile "org.jetbrains.kotlin:kotlin-stdlib:1.0.+"
   compile ratpack.dependency("guice")
   testCompile "junit:junit:4.+"
+  testCompile 'org.jetbrains.spek:spek:1.0.+'
   testCompile "org.jetbrains.kotlin:kotlin-test:1.0.+"
 }
 
