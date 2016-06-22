@@ -22,6 +22,9 @@ apply plugin: "idea"
 
 repositories {
   jcenter()
+  maven {
+      url "http://repository.jetbrains.com/all"
+  }
 }
 
 dependencies {
@@ -32,6 +35,7 @@ dependencies {
   runtime 'org.apache.logging.log4j:log4j-core:2.6.1'
   runtime 'com.lmax:disruptor:3.3.4'
   testCompile "junit:junit:4.+"
+  testCompile 'org.jetbrains.spek:spek:1.0.+'
   testCompile "org.jetbrains.kotlin:kotlin-test:1.0.+"
 }
 
