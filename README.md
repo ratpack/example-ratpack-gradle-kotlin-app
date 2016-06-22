@@ -29,10 +29,9 @@ on what the Gradle application plugin can do for you.
 ## Development time reloading
 
 Most application classes can be changed at runtime without needing to restart the application. This is made
-possible by [SpringSource's SpringLoaded](https://github.com/SpringSource/spring-loaded) library.
+possible by [Gradle's Continuous Mode](https://docs.gradle.org/current/userguide/continuous_build.html) via Ratpack's Gradle plugin.
 
-If running the application via `./gradlew run`, you must run `./gradlew classes` in another shell in order for
-your source code changes to be compiled.
+If running the application via `./gradlew run --continuous` or `./gradlew run -t` for short, you will see your changes to source code be detected and applied.
 
 ## IDEA integration
 
@@ -44,10 +43,8 @@ This will generate a `.ipr` file that you can use to open the project in IDEA.
 
 In the “Run” menu, you will find a run configuration for launching the Ratpack app from within your IDE.
 
-Hot reloading is supported in this mode. IDEA does not automatically compile source code changes while the
-Ratpack app is running. After making a change you must make the project to have the changes take effect (⌘9 on
-Mac OS).
+Hot reloading is not supported in this mode.
 
 ## More on Ratpack
 
-To learn more about Ratpack, visit http://www.ratpack.io
+To learn more about Ratpack, visit http://www.ratpack.io and join our slack channel https://slack-signup.ratpack.io/
