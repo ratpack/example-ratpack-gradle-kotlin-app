@@ -1,0 +1,15 @@
+idea {
+  project {
+    jdkName "1.8"
+    languageLevel "JDK_1_8"
+    vcs = "Git"
+    ipr {
+      withXml {
+        def node = it.asNode()
+        def parser = new XmlParser()
+        node.append(parser.parse(file("$rootDir/gradle/idea/codeStyleSettings.xml")))
+        node.append(parser.parse(file("$rootDir/gradle/idea/gradleSettings.xml")))
+      }
+    }
+  }
+}
