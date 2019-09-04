@@ -39,7 +39,7 @@ class KChain (val delegate: Chain) : Chain by delegate {
 
 class KContext (val delegate: Context) : Context by delegate
 
-class KServerSpec(val delegate: RatpackServerSpec) : RatpackServerSpec by delegate {
+class KServerSpec(val delegate: RatpackServerSpec) {
     fun serverConfig(cb: ServerConfigBuilder.() -> Unit) = delegate.serverConfig { it.cb() }
     fun registry(cb: RegistrySpec.() -> Unit) = delegate.registry (Registry.of(cb))
     fun guiceRegistry(cb: BindingsSpec.() -> Unit) =
